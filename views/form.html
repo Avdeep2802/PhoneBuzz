@@ -1,0 +1,19 @@
+<div class = "container">
+  <div class="w3-card-4">
+    <div class="w3-container w3-black">
+      <h2>Phone Buzz</h2>
+    </div>
+    <form class="w3-container" action='/call' method= 'POST'>
+      <p>
+      <label class="w3-text-black"><b>Phone Number</b></label>
+      <input class="w3-input w3-border w3-sand"  name="phonenumber" placeholder="Phone Number" type="phone"></p>
+      <p>
+      <label class="w3-text-black"><b>Time Gap</b></label>
+      <input class="w3-input w3-border w3-sand"  placeholder="Time in Seconds" name="TimeGap" type="number"></p>
+      <p>
+      <input type="hidden" name="decide" value="call"/>	
+      <button type = "submit" class="w3-btn w3-black">Submit</button></p>
+    </form>
+   
+  </div>
+</div>

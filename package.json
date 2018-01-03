@@ -1,0 +1,16 @@
+{
+  "name": "Twilio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "3.2.6",
+    "mysql": "^2.15.0",
+    "node-datetime": "^2.0.3",
+    "save": "^2.3.2",
+    "twilio": "^3.11.0"
+  }
+}
